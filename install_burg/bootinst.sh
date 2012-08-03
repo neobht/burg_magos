@@ -72,7 +72,7 @@ if [ "$MBR" != "$TARGET" ]; then
    t_echo "Saving old MBR ..."
    dd if=$MBR of=backup.mbr count=1 2>/dev/null
    t_echo "Setting up MBR on" $MBR...
-   ./sbin/burg-install --root-directory=../../ $TARGET
+   ./sbin/burg-install --no-floppy --recheck --root-directory=../../ $TARGET
 else
 #   ./burg-pc/sbin/burg-install --root-directory=../../ $MBR
     echo "Bug"
