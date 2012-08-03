@@ -1,0 +1,9 @@
+iat_keyboard: at_keyboard
+ogfxmenu: coreui
+ogfxterm: gfxterm
+iconsole: kernel
+oconsole: kernel
+iserial: serial
+oserial: serial
+iusb_keyboard: usb_keyboard
+ovga_text: vga_text

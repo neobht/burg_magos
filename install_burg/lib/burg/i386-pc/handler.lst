@@ -1,0 +1,7 @@
+controller.ext: emenu
+menu_region.gfx: gfxrgn
+parser.rescue: kernel
+parser.lua: lua
+controller.normal: nmenu
+parser.grub: sh
+menu_region.text: txtrgn

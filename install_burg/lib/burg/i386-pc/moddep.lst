@@ -1,0 +1,124 @@
+acpi: extcmd gzio mmap
+affs: fshelp
+afs: fshelp
+afs_be: fshelp
+ata: pci scsi
+ata_pthru: ata
+befs: fshelp
+befs_be: fshelp
+bitmap_scale: bitmap video video_fb
+bsd: aout boot cpuid elf extcmd gzio mmap video
+cat: gzio
+chain: boot video
+cmp: gzio
+configfile: lib
+coreui: charset lib trig widget
+cpuid: extcmd
+crc: lib
+date: datetime lib
+datehook: datetime lib
+dd: extcmd
+dm_nv: raid
+drivemap: boot extcmd mmap
+echo: extcmd
+efiemu: acpi charset lib
+elf: gzio
+emenu: extcmd lib widget
+example_functional_test: functional_test
+ext2: fshelp
+font: bufio lib video
+functional_test: extcmd
+gcry_arcfour: crypto
+gcry_blowfish: crypto
+gcry_camellia: crypto
+gcry_cast5: crypto
+gcry_crc: crypto
+gcry_des: crypto
+gcry_md4: crypto
+gcry_md5: crypto
+gcry_rfc2268: crypto
+gcry_rijndael: crypto
+gcry_rmd160: crypto
+gcry_seed: crypto
+gcry_serpent: crypto
+gcry_sha1: crypto
+gcry_sha256: crypto
+gcry_sha512: crypto
+gcry_tiger: crypto
+gcry_twofish: crypto
+gcry_whirlpool: crypto
+geom: biosdisk
+gettext: gzio lib
+gfxmenu: bitmap bitmap_scale font gfxterm nmenu trig video
+gfxrgn: bitmap bitmap_scale font video video_fb widget
+gfxterm: bitmap bitmap_scale extcmd font video
+halt: extcmd
+hashsum: crypto extcmd lib
+hdparm: extcmd lib
+hello: extcmd
+help: charset extcmd lib
+hexdump: extcmd lib
+hfsplus: fshelp
+iorw: extcmd
+iso9660: fshelp
+jpeg: bitmap bufio
+keystatus: extcmd
+linux: boot lib mmap video
+linux16: boot mmap video
+loadbin: boot relocator relocator16 video
+loadcfg: lib
+loadenv: extcmd
+loopback: extcmd
+ls: extcmd lib
+lspci: extcmd pci
+lua: lib setjmp
+mdraid: raid
+memrw: extcmd
+mmap: boot
+msdospart: parttool
+multiboot: boot gzio mmap relocator video
+multiboot2: boot gzio mmap relocator video
+nilfs2: fshelp
+nmenu: boot charset crypto lib normal
+normal: crypto lib
+ntfs: fshelp
+ntfscomp: ntfs
+ohci: pci usb
+parttool: lib
+password: crypto lib
+password_pbkdf2: crypto gcry_sha512 lib pbkdf2
+pbkdf2: crypto
+png: bitmap bufio
+probe: extcmd
+pxe: bufio
+pxecmd: pxe
+raid5rec: raid
+raid6rec: raid
+reiserfs: fshelp
+relocator16: relocator
+search: extcmd search_fs_file search_fs_uuid search_label
+serial: extcmd terminfo
+setpci: extcmd pci
+sfs: fshelp
+sh: lib
+sleep: extcmd normal
+terminal: normal
+tga: bitmap bufio
+time: datetime
+txtrgn: widget
+udf: fshelp
+uhci: pci usb
+usb_keyboard: usb
+usbms: scsi usb
+usbtest: usb
+vbe: video video_fb
+vbeinfo: vbe
+vbetest: vbe video
+vga: video video_fb
+video_fb: video
+videotest: font video
+vmenu: lib vbe
+widget: boot lib
+xfs: fshelp
+xnu: bitmap bitmap_scale boot charset efiemu extcmd gzio relocator video
+xnu_uuid: gcry_md5
